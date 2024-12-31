@@ -2,7 +2,7 @@ const { alldown } = require("aryan-videos-downloader");
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
-const botToken = 'BOT TOKEN';
+const botToken = '7563535295:AAHhSBQMgZ5MJALJyPOkRjBgqc6E-0-ZzV4';
 const bot = new TelegramBot(botToken, { polling: true });
 
 bot.on('message', async (msg) => {
