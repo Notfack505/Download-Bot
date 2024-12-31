@@ -37,7 +37,7 @@ bot.on('message', async (msg) => {
             caption: `🎬 Video download ${title}`,
             reply_markup: {
                 inline_keyboard: [
-                    [{ text: 'Bot Owner', url: 'https://t.me/BDT-JISAN' }]
+                    [{ text: 'Bot Owner', url: '@BDT_JISAN' }]
                 ]
             }
         });
